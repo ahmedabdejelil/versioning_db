@@ -19,4 +19,4 @@ COPY liquibase.tar.gz /liquibase
 RUN  tar -xzvf liquibase.tar.gz
 
 RUN cp -R /liquibase/home/user/liquibase /home/user/ &&  cp /liquibase/liquibase.tar.gz /home/user/
-RUN cp -R ./init.sh /liquibase/home/user/liquibase/Config/
+RUN cp -R ./init.sh /liquibase/home/user/liquibase/Config
